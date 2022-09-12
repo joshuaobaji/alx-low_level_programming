@@ -1,6 +1,6 @@
-3INCLUDE <STDIO.H>
+#include <stdio.h>
 
-/** 
+/**
  * main - prints the alphabet in lowercase,
  * followed by a new line, except q and e
  * Return: Always 0 (Succes)
@@ -13,10 +13,10 @@ int main(void)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
-			putschar(ch);
+			putchar(ch);
 		}
 		ch++;
 	}
-	putschar('\n');
+	putchar('\n');
 	return (0);
 }
