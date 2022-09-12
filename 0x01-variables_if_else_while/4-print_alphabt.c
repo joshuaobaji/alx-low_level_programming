@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - prints the alphabet in lowercase,
@@ -7,15 +8,17 @@
  */
 int main(void)
 {
-	char ch = a'a;
+	int ch;
 
-	while (ch <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
-		ch++;
+		else
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
