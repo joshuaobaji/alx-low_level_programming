@@ -1,6 +1,6 @@
-#ifndef FILE_HOLBERTON
+#ifndef MAIN_H
 
-#define FILE_HOLBERTON
+#define MAIN_H
 
 
 
